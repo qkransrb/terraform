@@ -23,6 +23,6 @@ resource "aws_instance" "ubuntu" {
   instance_type = "t2.micro"
 
   tags = {
-    "Name" = "fastcampus-ubuntu"
+    "Name" = "ubuntu"
   }
 }
